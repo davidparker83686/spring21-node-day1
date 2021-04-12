@@ -7,6 +7,6 @@ import { generateId } from "../utils/GenerateId"
 
 
 class FakeDb {
-  burgers = [{ name: 'In-n-out burger', price: 5, ingredients: 'grilled onion, cheese, special sauce', id: generateId() }, { name: 'Hexblades Purse', description: "the best weapon is the old lady purse", id: generateId() }]
+  burgers = [{ name: 'In-n-out burger', price: 5, ingredients: 'grilled onion, cheese, special sauce', id: generateId() },]
 }
 export const fakeDb = new FakeDb()
